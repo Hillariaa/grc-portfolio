@@ -67,3 +67,29 @@ In practice, an ISO-aligned organization is usually **60–75% prepared for SOC 
 | Link mapping to your Project 1D controls | Scheduled |
 
 ---
+
+## 📂 ISO→SOC2 Mapping Table (Phase 2 — Availability & Confidentiality)
+
+| ISO 27001:2022 Control | SOC 2 TSC Reference | Coverage | Notes |
+|------------------------|--------------------|----------|-------|
+| **A.7.4 Securing Offices, Rooms and Facilities** | CC6.1, A1.1 | Full | Physical protections support both Security and Availability criteria. SOC 2 requires logs or physical review evidence during testing. |
+| **A.8.3 Capacity Management** | A1.2 | Full | ISO’s expectation for capacity planning aligns with SOC 2 availability controls. Evidence typically includes monitoring thresholds and capacity plans. |
+| **A.8.14 Change Management** | A1.3, CC7.2 | Partial | Change controls support Availability, but SOC 2 requires audited change tickets and approval workflows. Gaps usually relate to operational proof rather than missing processes. |
+| **A.8.15 Test Management** | PI1.2, PI1.3 | Partial | Test processes contribute to service reliability. SOC 2 looks for consistent execution and evidence retention. |
+| **A.8.22 Management of Technical Vulnerabilities** | CC7.1, A1.1 | Full | Vulnerability handling supports Availability through proactive remediation. SOC 2 sampling commonly tests remediation timelines. |
+| **A.8.24 Logging** | CC7.2, A1.3 | Full | Logging contributes to understanding service impact and incident diagnosis. SOC 2 requires logs tied to investigations. |
+| **A.8.27 Secure System Architecture and Engineering Principles** | CC3.2, A1.1 | Full | Architecture considerations support ongoing maintainability and reliability required by Availability criteria. |
+| **A.9.3 Privileged Access Rights** | CC6.2, C1.1 | Partial | Privileged controls protect Confidentiality. SOC 2 requires evidence of reviews and confirmations. |
+| **A.9.5 Access to Source Code** | CC6.6, PI1.1 | Full | Restricting code access protects confidentiality and integrity of internal systems. SOC 2 typically samples access lists. |
+| **A.10.1 Cryptographic Controls** | C1.1 | Full | Encryption provides direct support for Confidentiality criteria. SOC 2 looks for key lifecycle evidence. |
+| **A.10.2 Key Management** | C1.1 | Full | Key management practices are directly relevant to confidentiality. SOC 2 requires verification of enforcement and rotation procedures. |
+| **A.11.1 Logging and Monitoring of Activities** | C1.1, CC7.2 | Full | Monitoring user actions is relevant to confidentiality protections. Evidence depth is the differentiator under SOC 2. |
+| **A.11.3 Assessment for Technical Compliance** | CC7.1 | Full | Ongoing assessments support evaluation of confidentiality controls. SOC 2 will verify assessment records or tool output. |
+
+
+### Observations (Phase 2)
+
+- ISO confidentiality and availability controls generally align well to SOC 2 expectations, but SOC 2 requires **operational proof** that controls are consistently applied.
+- Gaps tend to appear where **evidence retention** or **ticket sampling** is required rather than missing processes.
+- ISO-driven programs are often **structured enough** for SOC 2 readiness, but require **evidence mapping** before audit timing.
+- Availability alignment depends heavily on whether **change management and capacity planning** are documented and reproducible.
