@@ -4,7 +4,7 @@ This project demonstrates practical vendor risk management capability using a SI
 
 ## Vendors Assessed
 1. Greenhouse — Applicant Tracking System (ATS) & HR platform
-2. Stripe — Payment processor and financial data handler *(coming next)*
+2. Stripe — Payment processor and financial data handler 
 
 ## Deliverables
 - Vendor inventory
