@@ -4,7 +4,7 @@ This mapping shows how selected ISO 27001:2022 controls align to equivalent SOC 
 
 ---
 
-## 🔎 Framework Notes
+## Framework Notes
 
 | Framework | Scope Focus | Notes |
 |----------|------------|-------|
@@ -16,7 +16,7 @@ ISO and SOC 2 do not map 1:1. SOC 2 tests *evidence of operation*, while ISO foc
 
 ---
 
-## 📂 Mapping Key
+## Mapping Key
 
 | Symbol | Meaning |
 |--------|--------|
@@ -26,7 +26,7 @@ ISO and SOC 2 do not map 1:1. SOC 2 tests *evidence of operation*, while ISO foc
 
 ---
 
-## 🧩 ISO→SOC2 Mapping Table (Phase 1)
+## ISO→SOC2 Mapping Table (Phase 1)
 
 | ISO 27001:2022 Control | SOC 2 TSC Reference | Coverage | Notes |
 |------------------------|--------------------|----------|-------|
@@ -47,7 +47,7 @@ ISO and SOC 2 do not map 1:1. SOC 2 tests *evidence of operation*, while ISO foc
 
 ---
 
-## 📌 Early Observations (Phase 1)
+## Early Observations (Phase 1)
 
 - ISO controls **cover most SOC 2 security criteria** at a conceptual level.
 - SOC 2 testing requires **operational evidence**, not only documented controls.
@@ -57,7 +57,7 @@ In practice, an ISO-aligned organization is usually **60–75% prepared for SOC 
 
 ---
 
-## 🧭 Next Steps – Phase 2 Mapping
+## Phase 2 Mapping
 
 | Task | Status |
 |------|--------|
@@ -68,7 +68,7 @@ In practice, an ISO-aligned organization is usually **60–75% prepared for SOC 
 
 ---
 
-## 📂 ISO→SOC2 Mapping Table (Phase 2 — Availability & Confidentiality)
+## ISO→SOC2 Mapping Table (Phase 2 — Availability & Confidentiality)
 
 | ISO 27001:2022 Control | SOC 2 TSC Reference | Coverage | Notes |
 |------------------------|--------------------|----------|-------|
